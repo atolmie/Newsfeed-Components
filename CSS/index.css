@@ -112,3 +112,17 @@ body {
   font-family: 'Roboto';
   background-color: #fffef7;
 }
+
+.articles { 
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color:#ADFF2F;
+  }
+  100% {
+    background-color:#483D8B;
+  }
+}
+
